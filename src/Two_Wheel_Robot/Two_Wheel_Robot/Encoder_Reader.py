@@ -13,12 +13,13 @@
 # limitations under the License.
 
 import rclpy
+import RPi.GPIO as GPIO
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
-import RPi.GPIO as GPIO
+
 from std_msgs.msg import Bool
 
 
