@@ -1,0 +1,5 @@
+[console_scripts]
+encoder = Two_Wheel_Robot.Encoder_Reader:main
+listener = Two_Wheel_Robot.subscriber_member_function:main
+talker = Two_Wheel_Robot.publisher_member_function:main
+

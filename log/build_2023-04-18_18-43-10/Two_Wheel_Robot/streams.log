@@ -1,0 +1,17 @@
+[0.578s] Invoking command in '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data
+[0.815s] running develop
+[0.973s] running egg_info
+[0.973s] writing Two_Wheel_Robot.egg-info/PKG-INFO
+[0.973s] writing dependency_links to Two_Wheel_Robot.egg-info/dependency_links.txt
+[0.974s] writing entry points to Two_Wheel_Robot.egg-info/entry_points.txt
+[0.974s] writing requirements to Two_Wheel_Robot.egg-info/requires.txt
+[0.974s] writing top-level names to Two_Wheel_Robot.egg-info/top_level.txt
+[0.975s] reading manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+[0.976s] running build_ext
+[0.977s] Creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)
+[0.977s] Installing talker script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[0.977s] 
+[0.977s] Installed /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot
+[0.978s] running install_data
+[1.001s] Invoked command in '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot' returned '0': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data

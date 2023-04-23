@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating Two_Wheel_Robot.egg-info
+writing Two_Wheel_Robot.egg-info/PKG-INFO
+writing dependency_links to Two_Wheel_Robot.egg-info/dependency_links.txt
+writing entry points to Two_Wheel_Robot.egg-info/entry_points.txt
+writing requirements to Two_Wheel_Robot.egg-info/requires.txt
+writing top-level names to Two_Wheel_Robot.egg-info/top_level.txt
+writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+reading manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)
+Installing talker script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+
+Installed /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot
+running install_data
+creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/share/ament_index
+creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/share/ament_index/resource_index
+creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/share/ament_index/resource_index/packages
+copying resource/Two_Wheel_Robot -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot
