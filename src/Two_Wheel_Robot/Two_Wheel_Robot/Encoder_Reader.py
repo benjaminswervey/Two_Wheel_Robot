@@ -29,7 +29,7 @@ class Encoder_Reader(Node):
         enc1 = 2
         enc2 = 3
 
-        GPIO.setmode(GPIO.BOARD)
+        GPIO.setmode(GPIO.BCM)
         GPIO.setup(enc1, GPIO.IN)
         GPIO.setup(enc2, GPIO.IN)
         super().__init__('Encoder_Reader')
