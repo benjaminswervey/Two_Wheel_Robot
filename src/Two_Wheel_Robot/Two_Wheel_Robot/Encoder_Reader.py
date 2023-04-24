@@ -13,14 +13,13 @@
 # limitations under the License.
 
 import rclpy
-from gpiozero import Button
+import gpiod
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
-from gpiozero import DigitalInputDevice
-from std_msgs.msg import Bool
+from std_msgs.msg import Int32
 
 
 
@@ -29,29 +28,25 @@ class Encoder_Reader(Node):
         
         
         super().__init__('Encoder_Reader')
+        self.chip = gpiod.chip('gpiochip0')
         enc1 = 20
         enc2 = 21
+        line = self.chip.get_line(20)
+        
         self.count=0
-        self.encpin1=DigitalInputDevice(enc1)
-        self.encpin2=DigitalInputDevice(enc2)
+        line.request(consumer='Encoder_Reader', type=gpiod.LINE_REQ_DIR_IN)
+        self.encoder_pub = self.create_publisher(Int32, 'encoder_value', 10)
+        
+        self.timer_ = self.create_timer(0.1, self.read_encoder)
 
-        self.publisher_=self.create_publisher(
-            int,
-            '/Enc',
-            10
+    def read_encoder(self):
+        value = self.line.get_value()
+        self.encoder_pub.publish(Int32(data=value))
 
-        )
-        self.timer_ = self.create_timer(0.5, self.publish_gpio_status)
-        self.encpin1.when_activated=self.AddOne
-    def publish_gpio_status(self):
-        self.publisher_.publish(self.count)
+    #def __del__(self):
+    #    self.chip.__del__()
     
-    def update_encoder_count(self):
-        if(self.encpin1.value==self.encpin2.value):
-            self.count+=1
-        else:
-            self.count-=1
-        self.publisher_.publish(self.count)
+    
     
     
 
