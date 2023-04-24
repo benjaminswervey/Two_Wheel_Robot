@@ -31,7 +31,7 @@ class Encoder_Reader(Node):
         self.chip = gpiod.chip('gpiochip0')
         enc1 = 20
         enc2 = 21
-        line = self.chip.get_line(20)
+        line = self.chip.get_line(2)
         
         self.count=0
         line.request(consumer='Encoder_Reader', type=gpiod.LINE_REQ_DIR_IN)
