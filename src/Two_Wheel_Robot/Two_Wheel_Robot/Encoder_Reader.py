@@ -34,8 +34,10 @@ class Encoder_Reader(Node):
         line = self.chip.get_line(98)
         
         self.count=0
-        
-        line.request()
+        config=gpiod.line_request()
+        config.consumer="Encoder_Reader"
+        config.request_type=gpiod.line_request.DIRECTION_INPUT
+        line.request(config)
         self.encoder_pub = self.create_publisher(Int32, 'encoder_value', 10)
         
         self.timer_ = self.create_timer(0.1, self.read_encoder)
