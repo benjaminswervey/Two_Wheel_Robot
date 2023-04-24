@@ -28,13 +28,13 @@ class Encoder_Reader(Node):
         
         
         super().__init__('Encoder_Reader')
-        self.chip = gpiod.chip('gpiochip0')
+        self.chip = gpiod.chip(1)
         enc1 = 20
         enc2 = 21
-        line = self.chip.get_line(2)
+        line = self.chip.get_line(98)
         
         self.count=0
-        line.request(consumer='Encoder_Reader', type=gpiod.LINE_REQ_DIR_IN)
+        line.request(consumer='Encoder_Reader', type=gpiod.line_request.DIRECTION_INPUT)
         self.encoder_pub = self.create_publisher(Int32, 'encoder_value', 10)
         
         self.timer_ = self.create_timer(0.1, self.read_encoder)
