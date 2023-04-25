@@ -28,22 +28,30 @@ class Encoder_Reader(Node):
         
         
         super().__init__('Encoder_Reader')
+        asdf=gpiod.chip(0)
         self.chip = gpiod.chip(1)
         enc1 = 20
         enc2 = 21
         self.line = self.chip.get_line(98)
+        self.asdf_line=asdf.get_line(9)
         
         self.count=0
         config=gpiod.line_request()
+        config2=gpiod.line_request()
         config.consumer="Encoder_Reader"
+        config2.consumer="Encoder_Reader"
         config.request_type=gpiod.line_request.DIRECTION_INPUT
+        config2.request_type=gpiod.line_request.DIRECTION_INPUT
         self.line.request(config)
-        self.encoder_pub = self.create_publisher(Int32, 'encoder_value', 10)
+        self.asdf_line.request(config2)
+        self.encoder_pub = self.create_publisher(Int32[2], 'encoder_value', 10)
         
         self.timer_ = self.create_timer(0.1, self.read_encoder)
 
     def read_encoder(self):
-        value = self.line.get_value()
+        value=[0,0]
+        value[0]= self.line.get_value()
+        value[1]= self.asdf_line.get_value()
         self.encoder_pub.publish(Int32(data=value))
 
     #def __del__(self):
