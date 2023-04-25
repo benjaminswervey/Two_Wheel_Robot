@@ -20,6 +20,7 @@ from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
 from std_msgs.msg import Int32
+from std_msgs.msg import Int32MultiArray
 
 
 
@@ -44,15 +45,15 @@ class Encoder_Reader(Node):
         config2.request_type=gpiod.line_request.DIRECTION_INPUT
         self.line.request(config)
         self.asdf_line.request(config2)
-        self.encoder_pub = self.create_publisher(Int32[2], 'encoder_value', 10)
+        self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_value', 10)
         
         self.timer_ = self.create_timer(0.1, self.read_encoder)
 
     def read_encoder(self):
-        value=[0,0]
+        value=Int32MultiArray
         value[0]= self.line.get_value()
         value[1]= self.asdf_line.get_value()
-        self.encoder_pub.publish(Int32(data=value))
+        self.encoder_pub.publish(Int32MultiArray(data=value))
 
     #def __del__(self):
     #    self.chip.__del__()
