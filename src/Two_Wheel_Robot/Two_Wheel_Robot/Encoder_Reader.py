@@ -38,36 +38,36 @@ class Encoder_Reader(Node):
         self.M1E1_Line = Chip1.get_line(98)
         self.M1E2_Line=Chip0.get_line(9)
         self.M2E1_Line = Chip0.get_line(10)
-        #self.M2E2_Line=M2E2.get_line(93)
+        self.M2E2_Line=Chip1.get_line(93)
         
         self.count=0
 
         M1E1_config=gpiod.line_request()
         M1E2_config=gpiod.line_request()
         M2E1_config=gpiod.line_request()
-        #M2E2_config=gpiod.line_request()
+        M2E2_config=gpiod.line_request()
 
         M1E1_config.consumer="Encoder_Reader"
         M1E2_config.consumer="Encoder_Reader"
         M2E1_config.consumer="Encoder_Reader"
-        #M2E2_config.consumer="Encoder_Reader"
+        M2E2_config.consumer="Encoder_Reader"
 
         M1E1_config.request_type=gpiod.line_request.DIRECTION_INPUT
         M1E2_config.request_type=gpiod.line_request.DIRECTION_INPUT
         M2E1_config.request_type=gpiod.line_request.DIRECTION_INPUT
-        #M2E2_config.request_type=gpiod.line_request.DIRECTION_INPUT
+        M2E2_config.request_type=gpiod.line_request.DIRECTION_INPUT
 
         self.M1E1_Line.request(M1E1_config)
         self.M1E2_Line.request(M1E2_config)
         self.M2E1_Line.request(M2E1_config)
-        #self.M2E2_Line.request(M2E2_config)
+        self.M2E2_Line.request(M2E2_config)
 
         self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_value', 10)
         self.timer_ = self.create_timer(0.1, self.read_encoder)
 
     def read_encoder(self):
         value=Int32MultiArray
-        value=[self.M1E1_Line.get_value(), self.M1E2_Line.get_value(), self.M2E1_Line.get_value()]#, self.M2E2_Line.get_value()]
+        value=[self.M1E1_Line.get_value(), self.M1E2_Line.get_value(), self.M2E1_Line.get_value(), self.M2E2_Line.get_value()]
         self.encoder_pub.publish(Int32MultiArray(data=value))
 
     #def __del__(self):
