@@ -54,8 +54,8 @@ class Encoder_Reader(Node):
 
         M1E1_config.request_type=gpiod.line_request.DIRECTION_INPUT
         M1E2_config.request_type=gpiod.line_request.DIRECTION_INPUT
-        M1E1_config.request_type=gpiod.line_request.DIRECTION_INPUT
-        M1E2_config.request_type=gpiod.line_request.DIRECTION_INPUT
+        M2E1_config.request_type=gpiod.line_request.DIRECTION_INPUT
+        M2E2_config.request_type=gpiod.line_request.DIRECTION_INPUT
 
         self.M1E1_Line.request(M1E1_config)
         self.M1E2_Line.request(M1E2_config)
