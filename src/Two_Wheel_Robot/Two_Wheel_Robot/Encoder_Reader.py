@@ -59,7 +59,7 @@ class Encoder_Reader(Node):
 
         self.M1E1_Line.request(M1E1_config)
         self.M1E2_Line.request(M1E2_config)
-        #self.M2E1_Line.request(M2E1_config)
+        self.M2E1_Line.request(M2E1_config)
         #self.M2E2_Line.request(M2E2_config)
 
         self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_value', 10)
