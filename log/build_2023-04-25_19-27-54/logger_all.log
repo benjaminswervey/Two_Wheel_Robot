@@ -1,0 +1,131 @@
+[3.359s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.360s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffabcc9f90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac4d2350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac4d2350>>)
+[3.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.654s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/benjaminservey/Two_Wheel_Robot'
+[3.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.765s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.766s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extensions ['ignore', 'ignore_ament_install']
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extension 'ignore'
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extension 'ignore_ament_install'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extensions ['colcon_pkg']
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extension 'colcon_pkg'
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extensions ['colcon_meta']
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extension 'colcon_meta'
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extensions ['ros']
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/Two_Wheel_Robot) by extension 'ros'
+[3.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Two_Wheel_Robot' with type 'ros.ament_python' and name 'Two_Wheel_Robot'
+[3.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.032s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/benjaminservey/Two_Wheel_Robot/install
+[4.047s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 306 installed packages in /opt/ros/humble
+[4.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.736s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'cmake_args' from command line to 'None'
+[4.736s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'cmake_target' from command line to 'None'
+[4.737s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.737s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'cmake_clean_cache' from command line to 'False'
+[4.738s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'cmake_clean_first' from command line to 'False'
+[4.738s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'cmake_force_configure' from command line to 'False'
+[4.738s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'ament_cmake_args' from command line to 'None'
+[4.739s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'catkin_cmake_args' from command line to 'None'
+[4.739s] Level 5:colcon.colcon_core.verb:set package 'Two_Wheel_Robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.739s] DEBUG:colcon.colcon_core.verb:Building package 'Two_Wheel_Robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot', 'merge_install': False, 'path': '/home/benjaminservey/Two_Wheel_Robot/src/Two_Wheel_Robot', 'symlink_install': True, 'test_result_base': None}
+[4.746s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.778s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/benjaminservey/Two_Wheel_Robot/src/Two_Wheel_Robot' with build type 'ament_python'
+[4.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('Two_Wheel_Robot', 'ament_prefix_path')
+[4.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/ament_prefix_path.ps1'
+[4.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/ament_prefix_path.dsv'
+[4.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/ament_prefix_path.sh'
+[4.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.543s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/benjaminservey/Two_Wheel_Robot/src/Two_Wheel_Robot'
+[7.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot': PYTHONPATH=/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data
+[16.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('Two_Wheel_Robot', 'pythonpath_develop')
+[16.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot' returned '0': PYTHONPATH=/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data
+[16.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/pythonpath_develop.ps1'
+[16.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/pythonpath_develop.dsv'
+[16.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/pythonpath_develop.sh'
+[16.217s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot' for CMake module files
+[16.221s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot' for CMake config files
+[16.226s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib'
+[16.227s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/bin'
+[16.229s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/pkgconfig/Two_Wheel_Robot.pc'
+[16.232s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages'
+[16.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('Two_Wheel_Robot', 'pythonpath')
+[16.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/pythonpath.ps1'
+[16.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/pythonpath.dsv'
+[16.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/hook/pythonpath.sh'
+[16.261s] Level 1:colcon.colcon_core.environment:checking '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/bin'
+[16.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Two_Wheel_Robot)
+[16.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/package.ps1'
+[16.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/package.dsv'
+[16.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/package.sh'
+[16.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/package.bash'
+[16.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot/package.zsh'
+[16.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/share/colcon-core/packages/Two_Wheel_Robot)
+[16.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.314s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.365s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.468s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benjaminservey/Two_Wheel_Robot/install/local_setup.ps1'
+[16.495s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/benjaminservey/Two_Wheel_Robot/install/_local_setup_util_ps1.py'
+[16.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benjaminservey/Two_Wheel_Robot/install/setup.ps1'
+[16.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benjaminservey/Two_Wheel_Robot/install/local_setup.sh'
+[16.525s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/benjaminservey/Two_Wheel_Robot/install/_local_setup_util_sh.py'
+[16.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benjaminservey/Two_Wheel_Robot/install/setup.sh'
+[16.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benjaminservey/Two_Wheel_Robot/install/local_setup.bash'
+[16.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benjaminservey/Two_Wheel_Robot/install/setup.bash'
+[16.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benjaminservey/Two_Wheel_Robot/install/local_setup.zsh'
+[16.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benjaminservey/Two_Wheel_Robot/install/setup.zsh'

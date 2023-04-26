@@ -1,0 +1,29 @@
+[6.462s] Invoking command in '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot': PYTHONPATH=/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data
+[9.098s] running develop
+[9.103s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.104s]   warnings.warn(
+[9.114s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.115s]   warnings.warn(
+[9.822s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[9.823s]   warnings.warn(
+[9.825s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[9.826s]   warnings.warn(
+[9.827s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[9.828s]   warnings.warn(
+[11.159s] running egg_info
+[11.160s] writing Two_Wheel_Robot.egg-info/PKG-INFO
+[11.162s] writing dependency_links to Two_Wheel_Robot.egg-info/dependency_links.txt
+[11.164s] writing entry points to Two_Wheel_Robot.egg-info/entry_points.txt
+[11.165s] writing requirements to Two_Wheel_Robot.egg-info/requires.txt
+[11.167s] writing top-level names to Two_Wheel_Robot.egg-info/top_level.txt
+[11.180s] reading manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+[11.186s] writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+[11.196s] running build_ext
+[11.198s] Creating /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)
+[11.205s] Installing encoder script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[11.207s] Installing listener script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[11.208s] Installing talker script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[11.210s] 
+[11.212s] Installed /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot
+[11.213s] running install_data
+[11.525s] Invoked command in '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot' returned '0': PYTHONPATH=/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data

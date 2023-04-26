@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001842] (Two_Wheel_Robot) JobQueued: {'identifier': 'Two_Wheel_Robot', 'dependencies': OrderedDict()}
+[0.003905] (Two_Wheel_Robot) JobStarted: {'identifier': 'Two_Wheel_Robot'}
+[0.100509] (-) TimerEvent: {}
+[0.201712] (-) TimerEvent: {}
+[0.302718] (-) TimerEvent: {}
+[0.403739] (-) TimerEvent: {}
+[0.504860] (-) TimerEvent: {}
+[0.605960] (-) TimerEvent: {}
+[0.706960] (-) TimerEvent: {}
+[0.807963] (-) TimerEvent: {}
+[0.908985] (-) TimerEvent: {}
+[1.010008] (-) TimerEvent: {}
+[1.111001] (-) TimerEvent: {}
+[1.212062] (-) TimerEvent: {}
+[1.313065] (-) TimerEvent: {}
+[1.414056] (-) TimerEvent: {}
+[1.516832] (-) TimerEvent: {}
+[1.618859] (-) TimerEvent: {}
+[1.719921] (-) TimerEvent: {}
+[1.820959] (-) TimerEvent: {}
+[1.921949] (-) TimerEvent: {}
+[2.022959] (-) TimerEvent: {}
+[2.123950] (-) TimerEvent: {}
+[2.224989] (-) TimerEvent: {}
+[2.325980] (-) TimerEvent: {}
+[2.426975] (-) TimerEvent: {}
+[2.527967] (-) TimerEvent: {}
+[2.628973] (-) TimerEvent: {}
+[2.730005] (-) TimerEvent: {}
+[2.831326] (-) TimerEvent: {}
+[2.933807] (-) TimerEvent: {}
+[3.034855] (-) TimerEvent: {}
+[3.135925] (-) TimerEvent: {}
+[3.236933] (-) TimerEvent: {}
+[3.337903] (-) TimerEvent: {}
+[3.438900] (-) TimerEvent: {}
+[3.540011] (-) TimerEvent: {}
+[3.641025] (-) TimerEvent: {}
+[3.742086] (-) TimerEvent: {}
+[3.843128] (-) TimerEvent: {}
+[3.944226] (-) TimerEvent: {}
+[4.045236] (-) TimerEvent: {}
+[4.146241] (-) TimerEvent: {}
+[4.247254] (-) TimerEvent: {}
+[4.348348] (-) TimerEvent: {}
+[4.449362] (-) TimerEvent: {}
+[4.550373] (-) TimerEvent: {}
+[4.651463] (-) TimerEvent: {}
+[4.752602] (-) TimerEvent: {}
+[4.853643] (-) TimerEvent: {}
+[4.954713] (-) TimerEvent: {}
+[5.055827] (-) TimerEvent: {}
+[5.156866] (-) TimerEvent: {}
+[5.257962] (-) TimerEvent: {}
+[5.359008] (-) TimerEvent: {}
+[5.460076] (-) TimerEvent: {}
+[5.561121] (-) TimerEvent: {}
+[5.662159] (-) TimerEvent: {}
+[5.763184] (-) TimerEvent: {}
+[5.864327] (-) TimerEvent: {}
+[5.965387] (-) TimerEvent: {}
+[6.066449] (-) TimerEvent: {}
+[6.167481] (-) TimerEvent: {}
+[6.268624] (-) TimerEvent: {}
+[6.369683] (-) TimerEvent: {}
+[6.470763] (-) TimerEvent: {}
+[6.498886] (Two_Wheel_Robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/build', '--no-deps', 'install_data'], 'cwd': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'benjaminservey', 'SSH_CLIENT': '192.168.1.213 34540 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/benjaminservey', 'OLDPWD': '/home/benjaminservey', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'benjaminservey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/benjaminservey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.213 34540 192.168.1.22 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.571077] (-) TimerEvent: {}
+[6.672130] (-) TimerEvent: {}
+[6.773140] (-) TimerEvent: {}
+[6.874175] (-) TimerEvent: {}
+[6.975159] (-) TimerEvent: {}
+[7.076196] (-) TimerEvent: {}
+[7.177213] (-) TimerEvent: {}
+[7.278190] (-) TimerEvent: {}
+[7.379162] (-) TimerEvent: {}
+[7.480228] (-) TimerEvent: {}
+[7.581211] (-) TimerEvent: {}
+[7.682236] (-) TimerEvent: {}
+[7.783336] (-) TimerEvent: {}
+[7.884398] (-) TimerEvent: {}
+[7.985369] (-) TimerEvent: {}
+[8.086343] (-) TimerEvent: {}
+[8.187340] (-) TimerEvent: {}
+[8.288444] (-) TimerEvent: {}
+[8.389469] (-) TimerEvent: {}
+[8.490452] (-) TimerEvent: {}
+[8.591455] (-) TimerEvent: {}
+[8.692514] (-) TimerEvent: {}
+[8.793508] (-) TimerEvent: {}
+[8.894549] (-) TimerEvent: {}
+[8.995530] (-) TimerEvent: {}
+[9.096631] (-) TimerEvent: {}
+[9.140792] (Two_Wheel_Robot) StdoutLine: {'line': b'running develop\n'}
+[9.145763] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.146946] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.157093] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.158219] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.196829] (-) TimerEvent: {}
+[9.297826] (-) TimerEvent: {}
+[9.398834] (-) TimerEvent: {}
+[9.499871] (-) TimerEvent: {}
+[9.600902] (-) TimerEvent: {}
+[9.701904] (-) TimerEvent: {}
+[9.802915] (-) TimerEvent: {}
+[9.868747] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[9.869898] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.871353] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[9.872594] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.873864] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[9.874960] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.903124] (-) TimerEvent: {}
+[10.004229] (-) TimerEvent: {}
+[10.105264] (-) TimerEvent: {}
+[10.206331] (-) TimerEvent: {}
+[10.307460] (-) TimerEvent: {}
+[10.408558] (-) TimerEvent: {}
+[10.509578] (-) TimerEvent: {}
+[10.610595] (-) TimerEvent: {}
+[10.711567] (-) TimerEvent: {}
+[10.812620] (-) TimerEvent: {}
+[10.913617] (-) TimerEvent: {}
+[11.014605] (-) TimerEvent: {}
+[11.115589] (-) TimerEvent: {}
+[11.200681] (Two_Wheel_Robot) StdoutLine: {'line': b'running egg_info\n'}
+[11.202078] (Two_Wheel_Robot) StdoutLine: {'line': b'writing Two_Wheel_Robot.egg-info/PKG-INFO\n'}
+[11.203511] (Two_Wheel_Robot) StdoutLine: {'line': b'writing dependency_links to Two_Wheel_Robot.egg-info/dependency_links.txt\n'}
+[11.205292] (Two_Wheel_Robot) StdoutLine: {'line': b'writing entry points to Two_Wheel_Robot.egg-info/entry_points.txt\n'}
+[11.206697] (Two_Wheel_Robot) StdoutLine: {'line': b'writing requirements to Two_Wheel_Robot.egg-info/requires.txt\n'}
+[11.208111] (Two_Wheel_Robot) StdoutLine: {'line': b'writing top-level names to Two_Wheel_Robot.egg-info/top_level.txt\n'}
+[11.215847] (-) TimerEvent: {}
+[11.221787] (Two_Wheel_Robot) StdoutLine: {'line': b"reading manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'\n"}
+[11.227719] (Two_Wheel_Robot) StdoutLine: {'line': b"writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'\n"}
+[11.237751] (Two_Wheel_Robot) StdoutLine: {'line': b'running build_ext\n'}
+[11.239621] (Two_Wheel_Robot) StdoutLine: {'line': b'Creating /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)\n'}
+[11.247063] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing encoder script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[11.248545] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing listener script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[11.249883] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing talker script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[11.252132] (Two_Wheel_Robot) StdoutLine: {'line': b'\n'}
+[11.253482] (Two_Wheel_Robot) StdoutLine: {'line': b'Installed /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot\n'}
+[11.254737] (Two_Wheel_Robot) StdoutLine: {'line': b'running install_data\n'}
+[11.316029] (-) TimerEvent: {}
+[11.417047] (-) TimerEvent: {}
+[11.518084] (-) TimerEvent: {}
+[11.549805] (Two_Wheel_Robot) CommandEnded: {'returncode': 0}
+[11.618798] (-) TimerEvent: {}
+[11.726447] (-) TimerEvent: {}
+[11.798123] (Two_Wheel_Robot) JobEnded: {'identifier': 'Two_Wheel_Robot', 'rc': 0}
+[11.803420] (-) EventReactorShutdown: {}
