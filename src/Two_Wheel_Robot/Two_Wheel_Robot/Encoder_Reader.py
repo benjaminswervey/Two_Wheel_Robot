@@ -67,7 +67,7 @@ class Encoder_Reader(Node):
 
     def read_encoder(self):
         value=Int32MultiArray
-        value=[self.M1E1_Line.get_value(), self.M1E2_Line.get_value()]#, self.M2E1_Line.get_value()]#, self.M2E2_Line.get_value()]
+        value=[self.M1E1_Line.get_value(), self.M1E2_Line.get_value(), self.M2E1_Line.get_value()]#, self.M2E2_Line.get_value()]
         self.encoder_pub.publish(Int32MultiArray(data=value))
 
     #def __del__(self):
