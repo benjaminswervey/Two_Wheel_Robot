@@ -37,19 +37,20 @@ class Encoder_Counter(Node):
         self.right_enc_new=0
         self.left_count=0
         self.right_count=0
-        self.encoder_pub = self.create_publisher(int, 'encoder_counts', 10)
+        self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_counts', 10)
         self.timer_ = self.create_timer(0.033, self.Pub_Counts)
         
         self.subscription = self.create_subscription(
-            int,
+            Int32MultiArray,
             '/encoder_value',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self,msg):
-        left_motor_enc_array=[msg[0],msg]
-        right_motor_enc_array=[msg[2],msg[3]]
+        x=msg.data
+        left_motor_enc_array=[x(0),x(1)]
+        right_motor_enc_array=[x(2),x(3)]
         self.left_enc_new=self.BiConvert(left_motor_enc_array)
         self.right_enc_new=self.BiConvert(right_motor_enc_array)
         if(self.left_enc_prev==0):
@@ -98,9 +99,9 @@ class Encoder_Counter(Node):
     
 
     def Pub_Counts(self):
-        value=int
+        value=Int32MultiArray
         value=[self.left_count,self.right_count]
-        self.encoder_pub.publish(value) 
+        self.encoder_pub.publish(Int32MultiArray(data=value)) 
 
 
         
