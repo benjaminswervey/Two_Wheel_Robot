@@ -37,7 +37,7 @@ class Encoder_Counter(Node):
         self.right_enc_new=0
         self.left_count=0
         self.right_count=0
-        self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_counts', 10)
+        self.encoder_pub = self.create_publisher(int, 'encoder_counts', 10)
         self.timer_ = self.create_timer(0.033, self.Pub_Counts)
         
         self.subscription = self.create_subscription(
@@ -98,9 +98,9 @@ class Encoder_Counter(Node):
     
 
     def Pub_Counts(self):
-        value=Int32MultiArray
+        value=int
         value=[self.left_count,self.right_count]
-        self.encoder_pub.publish(Int32MultiArray(data=value)) 
+        self.encoder_pub.publish(value) 
 
 
         
