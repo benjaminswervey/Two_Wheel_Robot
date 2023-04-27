@@ -63,7 +63,7 @@ class Encoder_Reader(Node):
         self.M2E2_Line.request(M2E2_config)
 
         self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_value', 10)
-        self.timer_ = self.create_timer(0.1, self.read_encoder)
+        self.timer_ = self.create_timer(0.033, self.read_encoder)
 
     def read_encoder(self):
         value=Int32MultiArray
