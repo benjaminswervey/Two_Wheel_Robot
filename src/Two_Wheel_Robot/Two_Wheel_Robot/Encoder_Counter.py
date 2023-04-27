@@ -41,7 +41,7 @@ class Encoder_Counter(Node):
         self.timer_ = self.create_timer(0.033, self.Pub_Counts)
         
         self.subscription = self.create_subscription(
-            Int32MultiArray,
+            int,
             '/encoder_value',
             self.listener_callback,
             10)
