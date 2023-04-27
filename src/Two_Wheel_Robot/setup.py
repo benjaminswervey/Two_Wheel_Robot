@@ -23,7 +23,7 @@ setup(
       'talker = Two_Wheel_Robot.publisher_member_function:main',
       'listener = Two_Wheel_Robot.subscriber_member_function:main',
       'encoder_reader = Two_Wheel_Robot.Encoder_Reader:main',
-      'encoder_counter = TWo_Wheel_Robot.Encoder_Counter:main'
+      'encoder_counter = Two_Wheel_Robot.Encoder_Counter:main'
       
         ],
     },

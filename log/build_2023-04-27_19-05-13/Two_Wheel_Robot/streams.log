@@ -1,0 +1,20 @@
+[0.585s] Invoking command in '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data
+[0.833s] running develop
+[0.998s] running egg_info
+[0.998s] writing Two_Wheel_Robot.egg-info/PKG-INFO
+[0.999s] writing dependency_links to Two_Wheel_Robot.egg-info/dependency_links.txt
+[0.999s] writing entry points to Two_Wheel_Robot.egg-info/entry_points.txt
+[0.999s] writing requirements to Two_Wheel_Robot.egg-info/requires.txt
+[0.999s] writing top-level names to Two_Wheel_Robot.egg-info/top_level.txt
+[1.001s] reading manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+[1.001s] writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'
+[1.002s] running build_ext
+[1.003s] Creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)
+[1.003s] Installing encoder_counter script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.003s] Installing encoder_reader script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.004s] Installing listener script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.004s] Installing talker script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.004s] 
+[1.004s] Installed /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot
+[1.004s] running install_data
+[1.029s] Invoked command in '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot' returned '0': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build --no-deps install_data

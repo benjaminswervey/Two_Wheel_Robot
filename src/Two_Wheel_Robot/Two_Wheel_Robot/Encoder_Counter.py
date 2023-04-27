@@ -29,14 +29,14 @@ class Encoder_Counter(Node):
         
         
         super().__init__('Encoder_Counter')
-        left_motor_enc_array=Int32MultiArray
-        right_motor_enc_array=Int32MultiArray
-        left_enc_prev=0
-        right_enc_prev=0
-        left_enc_new=0
-        right_enc_new=0
-        left_count=0
-        right_count=0
+        self.left_motor_enc_array=Int32MultiArray
+        self.right_motor_enc_array=Int32MultiArray
+        self.left_enc_prev=0
+        self.right_enc_prev=0
+        self.left_enc_new=0
+        self.right_enc_new=0
+        self.left_count=0
+        self.right_count=0
         self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_counts', 10)
         self.timer_ = self.create_timer(0.033, self.Pub_Counts)
         
@@ -48,8 +48,8 @@ class Encoder_Counter(Node):
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self,msg):
-        left_motor_enc_array=[msg(0),msg(1)]
-        right_motor_enc_array=[msg(2),msg(3)]
+        left_motor_enc_array=[msg[0],msg]
+        right_motor_enc_array=[msg[2],msg[3]]
         self.left_enc_new=self.BiConvert(left_motor_enc_array)
         self.right_enc_new=self.BiConvert(right_motor_enc_array)
         if(self.left_enc_prev==0):
@@ -99,13 +99,13 @@ class Encoder_Counter(Node):
 
     def Pub_Counts(self):
         value=Int32MultiArray
-        value=[self.left_count,self.left_count]
+        value=[self.left_count,self.right_count]
         self.encoder_pub.publish(Int32MultiArray(data=value)) 
 
 
         
     def BiConvert(num):
-        return num(1)*2+num(0)
+        return num[1]*2+num[0]
     #def __del__(self):
     #    self.chip.__del__()
     
