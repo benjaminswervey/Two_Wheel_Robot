@@ -21,6 +21,7 @@ from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
 from std_msgs.msg import Int32
 from std_msgs.msg import Int32MultiArray
+from Two_Wheel_Robot.msg import foo
 
 
 
@@ -62,13 +63,13 @@ class Encoder_Reader(Node):
         self.M2E1_Line.request(M2E1_config)
         self.M2E2_Line.request(M2E2_config)
 
-        self.encoder_pub = self.create_publisher(Int32MultiArray, 'encoder_value', 10)
+        self.encoder_pub = self.create_publisher(foo, 'encoder_value', 10)
         self.timer_ = self.create_timer(0.1, self.read_encoder)
 
     def read_encoder(self):
         value=Int32MultiArray
         value=[self.M1E1_Line.get_value(), self.M1E2_Line.get_value(), self.M2E1_Line.get_value(), self.M2E2_Line.get_value()]
-        self.encoder_pub.publish(Int32MultiArray(data=value))
+        self.encoder_pub.publish(value)
 
     #def __del__(self):
     #    self.chip.__del__()

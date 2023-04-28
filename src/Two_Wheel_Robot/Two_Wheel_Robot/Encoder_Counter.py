@@ -29,8 +29,7 @@ class Encoder_Counter(Node):
         
         
         super().__init__('Encoder_Counter')
-        self.left_motor_enc_array=Int32MultiArray
-        self.right_motor_enc_array=Int32MultiArray
+        
         self.left_enc_prev=0
         self.right_enc_prev=0
         self.left_enc_new=0
@@ -47,12 +46,15 @@ class Encoder_Counter(Node):
             10)
         self.subscription  # prevent unused variable warning
 
-    def listener_callback(self,msg):
-        x=msg.data
-        left_motor_enc_array=[x(0),x(1)]
-        right_motor_enc_array=[x(2),x(3)]
-        self.left_enc_new=self.BiConvert(left_motor_enc_array)
-        self.right_enc_new=self.BiConvert(right_motor_enc_array)
+    def listener_callback(self, msg):
+        msg=Int32MultiArray
+        
+        self.get_logger().info(msg.data)
+
+        #left_motor_enc_array=x
+        #right_motor_enc_array=x
+        #self.left_enc_new=x[0]*2+x[1]
+        #self.left_enc_new=x[2]*2+x[3]
         if(self.left_enc_prev==0):
             if(self.left_enc_new==1):
                 self.left_count=self.left_count-1
@@ -105,8 +107,8 @@ class Encoder_Counter(Node):
 
 
         
-    def BiConvert(num):
-        return num[1]*2+num[0]
+    #def BiConvert(num):
+    #    return num[0]*2+num[1]
     #def __del__(self):
     #    self.chip.__del__()
     
