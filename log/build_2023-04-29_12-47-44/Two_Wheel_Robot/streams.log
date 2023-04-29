@@ -1,0 +1,47 @@
+[0.656s] Invoking command in '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build
+[0.922s] running develop
+[1.107s] Removing /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)
+[1.135s] Invoked command in '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot' returned '0': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build
+[1.136s] Invoking command in '/home/benjamin/Two_Wheel_Robot/src/Two_Wheel_Robot': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Two_Wheel_Robot build --build-base /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build install --record /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/install.log --single-version-externally-managed
+[1.433s] running egg_info
+[1.434s] writing ../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/PKG-INFO
+[1.434s] writing dependency_links to ../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/dependency_links.txt
+[1.434s] writing entry points to ../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/entry_points.txt
+[1.435s] writing requirements to ../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/requires.txt
+[1.435s] writing top-level names to ../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/top_level.txt
+[1.437s] reading manifest file '../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/SOURCES.txt'
+[1.438s] writing manifest file '../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info/SOURCES.txt'
+[1.438s] running build
+[1.438s] running build_py
+[1.439s] creating /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build
+[1.439s] creating /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib
+[1.439s] creating /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot
+[1.439s] copying Two_Wheel_Robot/publisher_member_function.py -> /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot
+[1.439s] copying Two_Wheel_Robot/Encoder_Counter.py -> /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot
+[1.439s] copying Two_Wheel_Robot/subscriber_member_function.py -> /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot
+[1.439s] copying Two_Wheel_Robot/__init__.py -> /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot
+[1.440s] copying Two_Wheel_Robot/Encoder_Reader.py -> /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot
+[1.440s] running install
+[1.440s] running install_lib
+[1.441s] creating /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot
+[1.441s] copying /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot/publisher_member_function.py -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot
+[1.441s] copying /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot/Encoder_Counter.py -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot
+[1.441s] copying /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot/subscriber_member_function.py -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot
+[1.441s] copying /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot/__init__.py -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot
+[1.442s] copying /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build/lib/Two_Wheel_Robot/Encoder_Reader.py -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot
+[1.442s] byte-compiling /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.442s] byte-compiling /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot/Encoder_Counter.py to Encoder_Counter.cpython-310.pyc
+[1.443s] byte-compiling /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.444s] byte-compiling /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot/__init__.py to __init__.cpython-310.pyc
+[1.444s] byte-compiling /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot/Encoder_Reader.py to Encoder_Reader.cpython-310.pyc
+[1.444s] running install_data
+[1.445s] copying package.xml -> /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/share/Two_Wheel_Robot
+[1.446s] running install_egg_info
+[1.447s] Copying ../../build/Two_Wheel_Robot/Two_Wheel_Robot.egg-info to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two_Wheel_Robot-0.0.0-py3.10.egg-info
+[1.448s] running install_scripts
+[1.468s] Installing encoder_counter script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.468s] Installing encoder_reader script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.469s] Installing listener script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.469s] Installing talker script to /home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot
+[1.469s] writing list of installed files to '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/install.log'
+[1.499s] Invoked command in '/home/benjamin/Two_Wheel_Robot/src/Two_Wheel_Robot' returned '0': PYTHONPATH=/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjamin/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Two_Wheel_Robot build --build-base /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/build install --record /home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot/install.log --single-version-externally-managed
