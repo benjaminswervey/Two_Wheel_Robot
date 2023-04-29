@@ -1,2 +1,1 @@
-int64 first
-int64 second
+/home/benjamin/Two_Wheel_Robot/src/tutorial_interfaces/msg/Encoder.msg

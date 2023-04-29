@@ -3,7 +3,7 @@
   "output_dir": "/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Encoder.idl"
+    "/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -14,6 +14,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Encoder.idl"
+    "/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl"
   ]
 }

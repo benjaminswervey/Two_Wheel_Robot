@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/ament_cmake_environment_hooks/library_path.dsv

@@ -21,7 +21,7 @@ from geometry_msgs.msg import Twist
 from geometry_msgs.msg import Vector3
 from std_msgs.msg import Int32
 from std_msgs.msg import Int32MultiArray
-from tutorial_interfaces import Encoder
+from tutorial_interfaces.msg import Num    # CHANGE
 
 
 
@@ -63,18 +63,18 @@ class Encoder_Reader(Node):
         self.M2E1_Line.request(M2E1_config)
         self.M2E2_Line.request(M2E2_config)
 
-        self.left_encoder_pub = self.create_publisher(Encoder, 'left_encoder', 10)
-        self.right_encoder_pub = self.create_publisher(Encoder, 'right_encoder', 10)
+        self.left_encoder_pub = self.create_publisher(Num, 'left_encoder', 10)
+        self.right_encoder_pub = self.create_publisher(Num, 'right_encoder', 10)
 
         self.timer_ = self.create_timer(0.1, self.read_encoder)
 
     def read_encoder(self):
-        left_value=Encoder
-        right_value=Encoder
-        left_value.First=self.M1E1_Line.get_value()
-        left_value.Second=self.M1E2_Line.get_value()
-        right_value.First=self.M2E1_Line.get_value()
-        right_value.Second=self.M2E2_Line.get_value()
+        left_value=Num
+        right_value=Num
+        left_value.first=self.M1E1_Line.get_value()
+        left_value.second=self.M1E2_Line.get_value()
+        right_value.first=self.M2E1_Line.get_value()
+        right_value.second=self.M2E2_Line.get_value()
         
         self.left_encoder_pub.publish(left_value)
         self.right_encoder_pub.publish(right_value)

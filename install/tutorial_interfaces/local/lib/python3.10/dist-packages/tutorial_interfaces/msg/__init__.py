@@ -1,1 +1,1 @@
-from tutorial_interfaces.msg._encoder import Encoder  # noqa: F401
+/home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/__init__.py

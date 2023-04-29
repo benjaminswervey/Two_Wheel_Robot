@@ -24,39 +24,39 @@ static struct PyModuleDef tutorial_interfaces__module = {
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "tutorial_interfaces/msg/detail/encoder__type_support.h"
-#include "tutorial_interfaces/msg/detail/encoder__struct.h"
-#include "tutorial_interfaces/msg/detail/encoder__functions.h"
+#include "tutorial_interfaces/msg/detail/num__type_support.h"
+#include "tutorial_interfaces/msg/detail/num__struct.h"
+#include "tutorial_interfaces/msg/detail/num__functions.h"
 
-static void * tutorial_interfaces__msg__encoder__create_ros_message(void)
+static void * tutorial_interfaces__msg__num__create_ros_message(void)
 {
-  return tutorial_interfaces__msg__Encoder__create();
+  return tutorial_interfaces__msg__Num__create();
 }
 
-static void tutorial_interfaces__msg__encoder__destroy_ros_message(void * raw_ros_message)
+static void tutorial_interfaces__msg__num__destroy_ros_message(void * raw_ros_message)
 {
-  tutorial_interfaces__msg__Encoder * ros_message = (tutorial_interfaces__msg__Encoder *)raw_ros_message;
-  tutorial_interfaces__msg__Encoder__destroy(ros_message);
+  tutorial_interfaces__msg__Num * ros_message = (tutorial_interfaces__msg__Num *)raw_ros_message;
+  tutorial_interfaces__msg__Num__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool tutorial_interfaces__msg__encoder__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool tutorial_interfaces__msg__num__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * tutorial_interfaces__msg__encoder__convert_to_py(void * raw_ros_message);
+PyObject * tutorial_interfaces__msg__num__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(tutorial_interfaces, msg, Encoder);
+ROSIDL_GET_MSG_TYPE_SUPPORT(tutorial_interfaces, msg, Num);
 
 int8_t
-_register_msg_type__msg__encoder(PyObject * pymodule)
+_register_msg_type__msg__num(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&tutorial_interfaces__msg__encoder__create_ros_message,
+    (void *)&tutorial_interfaces__msg__num__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -64,7 +64,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__msg__encoder",
+    "create_ros_message_msg__msg__num",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -75,7 +75,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&tutorial_interfaces__msg__encoder__destroy_ros_message,
+    (void *)&tutorial_interfaces__msg__num__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -83,7 +83,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__msg__encoder",
+    "destroy_ros_message_msg__msg__num",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -94,7 +94,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&tutorial_interfaces__msg__encoder__convert_from_py,
+    (void *)&tutorial_interfaces__msg__num__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -102,7 +102,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__msg__encoder",
+    "convert_from_py_msg__msg__num",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -113,7 +113,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&tutorial_interfaces__msg__encoder__convert_to_py,
+    (void *)&tutorial_interfaces__msg__num__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -121,7 +121,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__msg__encoder",
+    "convert_to_py_msg__msg__num",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -132,7 +132,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(tutorial_interfaces, msg, Encoder),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(tutorial_interfaces, msg, Num),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -140,7 +140,7 @@ _register_msg_type__msg__encoder(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__msg__encoder",
+    "type_support_msg__msg__num",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -161,7 +161,7 @@ PyInit_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c(void)
   }
   int8_t err;
 
-  err = _register_msg_type__msg__encoder(pymodule);
+  err = _register_msg_type__msg__num(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

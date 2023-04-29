@@ -6,3 +6,4 @@ tutorial_interfaces.egg-info/dependency_links.txt
 tutorial_interfaces.egg-info/top_level.txt
 tutorial_interfaces/msg/__init__.py
 tutorial_interfaces/msg/_encoder.py
+tutorial_interfaces/msg/_num.py
