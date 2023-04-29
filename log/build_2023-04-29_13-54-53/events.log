@@ -1,0 +1,334 @@
+[0.000000] (-) TimerEvent: {}
+[0.001873] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.004008] (Two_Wheel_Robot) JobQueued: {'identifier': 'Two_Wheel_Robot', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces')])}
+[0.005361] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.092319] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.097357] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.102859] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'benjaminservey'), ('SSH_CLIENT', '192.168.1.213 58876 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/benjaminservey'), ('OLDPWD', '/home/benjaminservey'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/benjaminservey/Two_Wheel_Robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'benjaminservey'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/benjaminservey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.213 58876 192.168.1.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot:/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble')]), 'shell': False}
+[0.111969] (-) TimerEvent: {}
+[0.213089] (-) TimerEvent: {}
+[0.314212] (-) TimerEvent: {}
+[0.350162] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.405622] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target tutorial_interfaces__cpp\n'}
+[0.414549] (-) TimerEvent: {}
+[0.421947] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[0.454964] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_tutorial_interfaces\n'}
+[0.465534] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.469233] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.491553] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.514814] (-) TimerEvent: {}
+[0.531205] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.546458] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.551439] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.574654] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[0.611703] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.615082] (-) TimerEvent: {}
+[0.624373] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.638891] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.685796] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.706009] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[0.715300] (-) TimerEvent: {}
+[0.816447] (-) TimerEvent: {}
+[0.823496] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[0.916711] (-) TimerEvent: {}
+[0.942333] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[1.002881] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.016939] (-) TimerEvent: {}
+[1.082738] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[1.117243] (-) TimerEvent: {}
+[1.144996] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.146745] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.149402] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.217511] (-) TimerEvent: {}
+[1.226529] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.228194] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.240304] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.317738] (-) TimerEvent: {}
+[1.418886] (-) TimerEvent: {}
+[1.519923] (-) TimerEvent: {}
+[1.620950] (-) TimerEvent: {}
+[1.722027] (-) TimerEvent: {}
+[1.823168] (-) TimerEvent: {}
+[1.924205] (-) TimerEvent: {}
+[2.025236] (-) TimerEvent: {}
+[2.126266] (-) TimerEvent: {}
+[2.227419] (-) TimerEvent: {}
+[2.328515] (-) TimerEvent: {}
+[2.429535] (-) TimerEvent: {}
+[2.530605] (-) TimerEvent: {}
+[2.631737] (-) TimerEvent: {}
+[2.732819] (-) TimerEvent: {}
+[2.833847] (-) TimerEvent: {}
+[2.934963] (-) TimerEvent: {}
+[3.035994] (-) TimerEvent: {}
+[3.119759] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.125511] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[3.127080] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[3.128887] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[3.136192] (-) TimerEvent: {}
+[3.148823] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.153883] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.236443] (-) TimerEvent: {}
+[3.337508] (-) TimerEvent: {}
+[3.405979] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[3.437767] (-) TimerEvent: {}
+[3.492466] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[3.538040] (-) TimerEvent: {}
+[3.639230] (-) TimerEvent: {}
+[3.740445] (-) TimerEvent: {}
+[3.797513] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[3.840664] (-) TimerEvent: {}
+[3.853637] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces'], 'cwd': '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'benjaminservey'), ('SSH_CLIENT', '192.168.1.213 58876 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/benjaminservey'), ('OLDPWD', '/home/benjaminservey'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/benjaminservey/Two_Wheel_Robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'benjaminservey'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/benjaminservey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.213 58876 192.168.1.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot:/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble')]), 'shell': False}
+[3.912119] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.915559] (tutorial_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.917149] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[3.920181] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[3.921601] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[3.923179] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[3.924877] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[3.926448] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.928001] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[3.929247] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[3.930881] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[3.932560] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.934009] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[3.935460] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.937661] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[3.939153] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[3.940621] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[3.941953] (-) TimerEvent: {}
+[3.943100] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[3.944620] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.946111] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.947691] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.949155] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[3.950584] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[3.952939] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.954340] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.955848] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.957355] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.960052] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[3.961467] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.963018] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.964579] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.966006] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[3.967557] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[3.968950] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[3.970764] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[3.971980] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.973483] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.974946] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.976192] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.977595] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.979200] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.980567] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[3.981950] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[3.983413] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[3.984705] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[3.986167] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[3.987609] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.988981] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[3.990474] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[3.991817] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[3.993186] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[3.994589] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[3.995965] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[3.997174] (tutorial_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[4.042230] (-) TimerEvent: {}
+[4.043739] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[4.045553] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.047414] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.049205] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.050971] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.052820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.054315] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.055834] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.057247] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[4.058758] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[4.060138] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[4.061597] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[4.063075] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.064467] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.065877] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[4.067637] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.069376] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.071117] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.142476] (-) TimerEvent: {}
+[4.243499] (-) TimerEvent: {}
+[4.317066] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[4.318265] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[4.343746] (-) TimerEvent: {}
+[4.368004] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[4.370196] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.372034] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.373678] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.375390] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.377765] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.380377] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.382832] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.385255] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.387966] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.391307] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.394777] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.397239] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.399210] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.400641] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.402008] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.403443] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.404675] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.413524] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.449320] (-) TimerEvent: {}
+[4.559230] (-) TimerEvent: {}
+[4.664708] (-) TimerEvent: {}
+[4.765860] (-) TimerEvent: {}
+[4.868208] (-) TimerEvent: {}
+[4.969980] (-) TimerEvent: {}
+[5.071192] (-) TimerEvent: {}
+[5.074049] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[5.092648] (Two_Wheel_Robot) JobStarted: {'identifier': 'Two_Wheel_Robot'}
+[5.171465] (-) TimerEvent: {}
+[5.272571] (-) TimerEvent: {}
+[5.373577] (-) TimerEvent: {}
+[5.474603] (-) TimerEvent: {}
+[5.575627] (-) TimerEvent: {}
+[5.676634] (-) TimerEvent: {}
+[5.777655] (-) TimerEvent: {}
+[5.878767] (-) TimerEvent: {}
+[5.979828] (-) TimerEvent: {}
+[6.080867] (-) TimerEvent: {}
+[6.181853] (-) TimerEvent: {}
+[6.282917] (-) TimerEvent: {}
+[6.383963] (-) TimerEvent: {}
+[6.484944] (-) TimerEvent: {}
+[6.585925] (-) TimerEvent: {}
+[6.686997] (-) TimerEvent: {}
+[6.788029] (-) TimerEvent: {}
+[6.889046] (-) TimerEvent: {}
+[6.990039] (-) TimerEvent: {}
+[7.091122] (-) TimerEvent: {}
+[7.192095] (-) TimerEvent: {}
+[7.293101] (-) TimerEvent: {}
+[7.394113] (-) TimerEvent: {}
+[7.495209] (-) TimerEvent: {}
+[7.596201] (-) TimerEvent: {}
+[7.697224] (-) TimerEvent: {}
+[7.798245] (-) TimerEvent: {}
+[7.899361] (-) TimerEvent: {}
+[8.001930] (-) TimerEvent: {}
+[8.103360] (-) TimerEvent: {}
+[8.204375] (-) TimerEvent: {}
+[8.305361] (-) TimerEvent: {}
+[8.406353] (-) TimerEvent: {}
+[8.507450] (-) TimerEvent: {}
+[8.608505] (-) TimerEvent: {}
+[8.709519] (-) TimerEvent: {}
+[8.810563] (-) TimerEvent: {}
+[8.911599] (-) TimerEvent: {}
+[9.012595] (-) TimerEvent: {}
+[9.113605] (-) TimerEvent: {}
+[9.214731] (-) TimerEvent: {}
+[9.315759] (-) TimerEvent: {}
+[9.416757] (-) TimerEvent: {}
+[9.517740] (-) TimerEvent: {}
+[9.618786] (-) TimerEvent: {}
+[9.719787] (-) TimerEvent: {}
+[9.820799] (-) TimerEvent: {}
+[9.921868] (-) TimerEvent: {}
+[10.022913] (-) TimerEvent: {}
+[10.123888] (-) TimerEvent: {}
+[10.224883] (-) TimerEvent: {}
+[10.325894] (-) TimerEvent: {}
+[10.426986] (-) TimerEvent: {}
+[10.527976] (-) TimerEvent: {}
+[10.629006] (-) TimerEvent: {}
+[10.730035] (-) TimerEvent: {}
+[10.831122] (-) TimerEvent: {}
+[10.932139] (-) TimerEvent: {}
+[11.033187] (-) TimerEvent: {}
+[11.134226] (-) TimerEvent: {}
+[11.235352] (-) TimerEvent: {}
+[11.336404] (-) TimerEvent: {}
+[11.425117] (Two_Wheel_Robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/build', '--no-deps', 'install_data'], 'cwd': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'benjaminservey', 'SSH_CLIENT': '192.168.1.213 58876 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/benjaminservey', 'OLDPWD': '/home/benjaminservey', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/benjaminservey/Two_Wheel_Robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'benjaminservey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/benjaminservey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.213 58876 192.168.1.22 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot/prefix_override:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:/home/benjamin/Two_Wheel_Robot/build/Two_Wheel_Robot:/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces'}, 'shell': False}
+[11.438251] (-) TimerEvent: {}
+[11.539491] (-) TimerEvent: {}
+[11.640536] (-) TimerEvent: {}
+[11.741575] (-) TimerEvent: {}
+[11.842586] (-) TimerEvent: {}
+[11.943602] (-) TimerEvent: {}
+[12.044642] (-) TimerEvent: {}
+[12.145689] (-) TimerEvent: {}
+[12.246762] (-) TimerEvent: {}
+[12.347782] (-) TimerEvent: {}
+[12.448793] (-) TimerEvent: {}
+[12.549835] (-) TimerEvent: {}
+[12.650921] (-) TimerEvent: {}
+[12.751925] (-) TimerEvent: {}
+[12.852942] (-) TimerEvent: {}
+[12.953977] (-) TimerEvent: {}
+[13.055084] (-) TimerEvent: {}
+[13.156078] (-) TimerEvent: {}
+[13.257085] (-) TimerEvent: {}
+[13.358086] (-) TimerEvent: {}
+[13.459182] (-) TimerEvent: {}
+[13.560206] (-) TimerEvent: {}
+[13.661236] (-) TimerEvent: {}
+[13.762235] (-) TimerEvent: {}
+[13.863320] (-) TimerEvent: {}
+[13.964354] (-) TimerEvent: {}
+[14.044592] (Two_Wheel_Robot) StdoutLine: {'line': b'running develop\n'}
+[14.046962] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.048174] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.056876] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.058041] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.064545] (-) TimerEvent: {}
+[14.165536] (-) TimerEvent: {}
+[14.266566] (-) TimerEvent: {}
+[14.367636] (-) TimerEvent: {}
+[14.468663] (-) TimerEvent: {}
+[14.569675] (-) TimerEvent: {}
+[14.670710] (-) TimerEvent: {}
+[14.762254] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[14.763525] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.764951] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[14.766112] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.767468] (Two_Wheel_Robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[14.768615] (Two_Wheel_Robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.770895] (-) TimerEvent: {}
+[14.871903] (-) TimerEvent: {}
+[14.972909] (-) TimerEvent: {}
+[15.073921] (-) TimerEvent: {}
+[15.175046] (-) TimerEvent: {}
+[15.276049] (-) TimerEvent: {}
+[15.377073] (-) TimerEvent: {}
+[15.478077] (-) TimerEvent: {}
+[15.579170] (-) TimerEvent: {}
+[15.680202] (-) TimerEvent: {}
+[15.781239] (-) TimerEvent: {}
+[15.882232] (-) TimerEvent: {}
+[15.983323] (-) TimerEvent: {}
+[16.084345] (-) TimerEvent: {}
+[16.098537] (Two_Wheel_Robot) StdoutLine: {'line': b'running egg_info\n'}
+[16.100053] (Two_Wheel_Robot) StdoutLine: {'line': b'writing Two_Wheel_Robot.egg-info/PKG-INFO\n'}
+[16.101567] (Two_Wheel_Robot) StdoutLine: {'line': b'writing dependency_links to Two_Wheel_Robot.egg-info/dependency_links.txt\n'}
+[16.103111] (Two_Wheel_Robot) StdoutLine: {'line': b'writing entry points to Two_Wheel_Robot.egg-info/entry_points.txt\n'}
+[16.104499] (Two_Wheel_Robot) StdoutLine: {'line': b'writing requirements to Two_Wheel_Robot.egg-info/requires.txt\n'}
+[16.105726] (Two_Wheel_Robot) StdoutLine: {'line': b'writing top-level names to Two_Wheel_Robot.egg-info/top_level.txt\n'}
+[16.118696] (Two_Wheel_Robot) StdoutLine: {'line': b"reading manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'\n"}
+[16.125203] (Two_Wheel_Robot) StdoutLine: {'line': b"writing manifest file 'Two_Wheel_Robot.egg-info/SOURCES.txt'\n"}
+[16.135198] (Two_Wheel_Robot) StdoutLine: {'line': b'running build_ext\n'}
+[16.137135] (Two_Wheel_Robot) StdoutLine: {'line': b'Creating /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/python3.10/site-packages/Two-Wheel-Robot.egg-link (link to .)\n'}
+[16.144597] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing encoder_counter script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[16.145962] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing encoder_reader script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[16.147427] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing listener script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[16.148821] (Two_Wheel_Robot) StdoutLine: {'line': b'Installing talker script to /home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot/lib/Two_Wheel_Robot\n'}
+[16.150912] (Two_Wheel_Robot) StdoutLine: {'line': b'\n'}
+[16.152290] (Two_Wheel_Robot) StdoutLine: {'line': b'Installed /home/benjaminservey/Two_Wheel_Robot/build/Two_Wheel_Robot\n'}
+[16.153559] (Two_Wheel_Robot) StdoutLine: {'line': b'running install_data\n'}
+[16.184589] (-) TimerEvent: {}
+[16.285624] (-) TimerEvent: {}
+[16.386685] (-) TimerEvent: {}
+[16.442932] (Two_Wheel_Robot) CommandEnded: {'returncode': 0}
+[16.492573] (-) TimerEvent: {}
+[16.601085] (-) TimerEvent: {}
+[16.655711] (Two_Wheel_Robot) JobEnded: {'identifier': 'Two_Wheel_Robot', 'rc': 0}
+[16.661320] (-) EventReactorShutdown: {}

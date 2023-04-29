@@ -1,0 +1,200 @@
+[0.093s] Invoking command in '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble /usr/bin/cmake /home/benjaminservey/Two_Wheel_Robot/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces
+[0.474s] -- The C compiler identification is GNU 11.3.0
+[0.886s] -- The CXX compiler identification is GNU 11.3.0
+[0.940s] -- Detecting C compiler ABI info
+[1.440s] -- Detecting C compiler ABI info - done
+[1.546s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.547s] -- Detecting C compile features
+[1.550s] -- Detecting C compile features - done
+[1.570s] -- Detecting CXX compiler ABI info
+[2.111s] -- Detecting CXX compiler ABI info - done
+[2.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.207s] -- Detecting CXX compile features
+[2.210s] -- Detecting CXX compile features - done
+[2.233s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.738s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.470s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.072s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.122s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.149s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.011s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[11.027s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.280s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[11.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.283s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.284s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.462s] -- Found PythonExtra: .so  
+[11.814s] -- Added test 'lint_cmake' to check CMake code style
+[11.821s] -- Added test 'xmllint' to check XML markup files
+[11.874s] -- Configuring done
+[12.074s] -- Generating done
+[12.096s] -- Build files have been written to: /home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces
+[12.150s] Invoked command in '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble /usr/bin/cmake /home/benjaminservey/Two_Wheel_Robot/src/tutorial_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces
+[12.167s] Invoking command in '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble /usr/bin/cmake --build /home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces -- -j4 -l4
+[12.412s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.475s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.533s] [  6%] Built target ament_cmake_python_symlink_tutorial_interfaces
+[15.113s] [  6%] Built target tutorial_interfaces__cpp
+[15.175s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.184s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.261s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[15.716s] running egg_info
+[15.723s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[15.742s] creating tutorial_interfaces.egg-info
+[15.744s] writing tutorial_interfaces.egg-info/PKG-INFO
+[15.748s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[15.750s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[15.751s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[15.767s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[15.773s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[16.224s] [ 19%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[16.251s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[16.297s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.336s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.000s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[18.116s] [ 32%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[18.875s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[19.521s] [ 38%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[20.955s] [ 41%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[21.443s] [ 41%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[21.731s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.712s] [ 48%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[22.992s] [ 48%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[23.070s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.249s] [ 54%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.634s] [ 58%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[23.899s] [ 58%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[23.931s] [ 58%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[24.655s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[24.853s] [ 64%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[25.079s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_c
+[25.606s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[28.222s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[28.783s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[28.911s] [ 70%] Built target tutorial_interfaces
+[29.038s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.672s] [ 74%] Built target tutorial_interfaces__py
+[31.799s] [ 77%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[32.670s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[32.964s] [ 80%] Built target tutorial_interfaces__rosidl_generator_py
+[33.086s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.088s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.095s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[33.739s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.747s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.770s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.971s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[33.987s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[33.997s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[34.080s] Invoked command in '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble /usr/bin/cmake --build /home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces -- -j4 -l4
+[34.473s] Invoking command in '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble /usr/bin/cmake --install /home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces
+[34.531s] -- Install configuration: ""
+[34.532s] -- Execute custom install script
+[34.533s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[34.588s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[34.647s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[34.703s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[34.773s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[34.842s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[34.922s] -- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[34.926s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[35.006s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[35.076s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.168s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[35.252s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.348s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[35.421s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[35.501s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[35.584s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[35.691s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[35.770s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.863s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[35.935s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[36.007s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[36.084s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[36.154s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[36.231s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[36.312s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[36.398s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[36.466s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[36.544s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.628s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[36.718s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[36.792s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[36.876s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[36.957s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[37.043s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[37.126s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[37.204s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[37.296s] -- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[37.308s] -- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[37.317s] -- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[37.323s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[37.395s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[37.470s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[37.553s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[37.639s] -- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[37.644s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[37.718s] -- Up-to-date symlink: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[37.723s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[37.795s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[37.867s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[37.939s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[38.019s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[38.112s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[38.204s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[38.279s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[38.360s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.450s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[38.543s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[38.643s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.721s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.796s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.879s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[38.958s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[39.031s] -- Symlinking: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[39.103s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[39.111s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[39.118s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[39.131s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[39.140s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[39.150s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[39.153s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[39.159s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[39.162s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[39.174s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.179s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[39.185s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[39.188s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[39.196s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[39.476s] Listing '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[39.477s] Compiling '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[39.478s] Listing '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[39.480s] Compiling '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[39.481s] Compiling '/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[39.535s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[39.555s] -- Set runtime path of "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[39.560s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[39.565s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[39.567s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[39.569s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.571s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[39.572s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.576s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[39.579s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[39.582s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[39.587s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.590s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.593s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[39.594s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.597s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[39.598s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[39.600s] -- Old export file "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[39.602s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[39.604s] -- Installing: /home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[39.627s] Invoked command in '/home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benjaminservey/Two_Wheel_Robot/install/Two_Wheel_Robot:/opt/ros/humble /usr/bin/cmake --install /home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces

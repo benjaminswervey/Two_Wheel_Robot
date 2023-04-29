@@ -1,8 +1,8 @@
-# Install script for directory: /home/benjamin/Two_Wheel_Robot/build/tutorial_interfaces/tutorial_interfaces__py
+# Install script for directory: /home/benjaminservey/Two_Wheel_Robot/build/tutorial_interfaces/tutorial_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/benjamin/Two_Wheel_Robot/install/tutorial_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/benjaminservey/Two_Wheel_Robot/install/tutorial_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
